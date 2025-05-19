@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: machine-efficiency-mlops
-        image: 
+        image: dansinostruct/gitops-mlops:latest
         ports:
         - containerPort: 5000
