@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: machine-efficiency-mlops
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: machine-efficiency-mlops
+  template:
+    metadata:
+      labels:
+        app: machine-efficiency-mlops
+    spec:
+      containers:
+      - name: machine-efficiency-mlops
+        image: 
+        ports:
+        - containerPort: 5000

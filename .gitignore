@@ -1,0 +1,4 @@
+venv/
+machines_efficiency_mlops.egg-info
+__pycache__/
+logs/
